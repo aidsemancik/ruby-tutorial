@@ -73,41 +73,43 @@
 
 # Math and Numbers
 
-    # Arithmetic
-    puts 5 + 9
-    puts 6 - 1
-    puts 9 * 4
-    puts 4 / 2
-    puts 2**3
-    puts 10 % 3
+    # # Arithmetic
+    # puts 5 + 9
+    # puts 6 - 1
+    # puts 9 * 4
+    # puts 4 / 2
+    # puts 2**3
+    # puts 10 % 3
 
-    # .to_s == converts to string
-    num = 20
-    puts ("my fav num " + num.to_s)
+    # # .to_s == converts to string
+    # num = 20
+    # puts ("my fav num " + num.to_s)
 
-    # Absolute Value
-    puts num.abs()
+    # # Absolute Value
+    # puts num.abs()
 
-    # Rounding
-    num = 20.487
-    puts num.round()
+    # # Rounding
+    # num = 20.487
+    # puts num.round()
 
-    # Ceiling -- next highest number
-    num = 20.1
-    puts num.ceil() 
+    # # Ceiling -- next highest number
+    # num = 20.1
+    # puts num.ceil() 
 
-    # Floor -- next lowest number
-    num = 20.9
-    puts num.floor()
+    # # Floor -- next lowest number
+    # num = 20.9
+    # puts num.floor()
 
-    # Math Class
-    num = 20.9
-    puts Math.sqrt(36)
-    puts Math.log(29)
+    # # Math Class
+    # num = 20.9
+    # puts Math.sqrt(36)
+    # puts Math.log(29)
 
-    # Differentiating Integers/Floats
-    puts 1 + 7
-    puts 1.0 + 7
-    puts 10 / 7
-    puts 10 / 7.0
+    # # Differentiating Integers/Floats
+    # puts 1 + 7
+    # puts 1.0 + 7
+    # puts 10 / 7
+    # puts 10 / 7.0
+
+# Getting User Input
 
