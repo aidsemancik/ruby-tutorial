@@ -25,18 +25,48 @@
 
 # Data Types
 
-    # String
-    name = "Mike"
+    # # String
+    # name = "Mike"
 
-    # Integer
-    age = 75
+    # # Integer
+    # age = 75
 
-    # Float
-    gpa = 3.2
+    # # Float
+    # gpa = 3.2
 
-    # Boolean (True/False)
-    ismale = true
-    istall = false
+    # # Boolean (True/False)
+    # ismale = true
+    # istall = false
 
-    # nil (no value)
-    flaws = nil
+    # # nil (no value)
+    # flaws = nil
+
+# Working with Strings
+
+    # Enter a quotation mark into a string with \"
+    puts "Hello\" World"
+
+    # Start a new line with \n
+    puts "Hello\nWorld"
+
+    # Printing variables
+    phrase = "Hello World"
+    puts phrase
+
+    # String methods/functions -- change or give information
+    phrase = "Hello World"
+    puts phrase.upcase()
+    puts phrase.downcase()
+
+    phrase = "             Hello World         "
+    puts phrase.strip()
+
+    phrase = "Hello World"
+    puts phrase.length()
+
+    puts phrase.include? "World"
+    puts phrase[0]
+    puts phrase[0,3]
+    puts phrase.index("W")
+
+    puts "programming".upcase()
