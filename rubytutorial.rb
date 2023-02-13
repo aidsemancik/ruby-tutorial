@@ -113,8 +113,8 @@
 
 # Getting User Input
 
-    # gets -- user input
-    # .chomp() -- Gets ride of new line after enter
+#     # gets -- user input
+#     # .chomp() -- Gets ride of new line after enter
 # puts "Enter Your Name: "
 # name = gets.chomp()
 # puts "Enter Your Age: "
@@ -123,11 +123,24 @@
 
 # Building a Calculator
 
-puts "Enter a number: "
-num1 = gets.chomp().to_f
+# puts "Enter a number: "
+# num1 = gets.chomp().to_f
 
-puts "Enter another number: "
-num2 = gets.chomp().to_f
+# puts "Enter another number: "
+# num2 = gets.chomp().to_f
 
-    # .to_i -- to integer, .to_f -- to float
-puts (num1 + num2)
+#     # .to_i -- to integer, .to_f -- to float
+# puts (num1 + num2)
+
+# Building a Mad Libs Game
+
+puts "Enter a color: "
+color = gets.chomp()
+puts "Enter a plural noun: "
+plural_noun = gets.chomp()
+puts "Enter a celebrity: "
+celebrity = gets.chomp()
+
+puts ("Roses are " + color)
+puts (plural_noun + " are blue")
+puts ("I love " + celebrity)
