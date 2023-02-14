@@ -147,16 +147,28 @@
 
 # Arrays
 
-friends = Array["Kevin", "Karen", "Oscar", "Andy"]
-friends[0] = "Dwight"
-puts friends[0]
-puts friends[-3]
-puts friends.length()
-puts friends.include? "Karen"
-puts friends.reverse()
-puts friends.sort()
+# friends = Array["Kevin", "Karen", "Oscar", "Andy"]
+# friends[0] = "Dwight"
+# puts friends[0]
+# puts friends[-3]
+# puts friends.length()
+# puts friends.include? "Karen"
+# puts friends.reverse()
+# puts friends.sort()
 
-friends = Array.new
-friends[0] = "Michael"
-friends[5] = "Holly"
-puts friends
+# friends = Array.new
+# friends[0] = "Michael"
+# friends[5] = "Holly"
+# puts friends
+
+# Hashes
+
+states = {
+    :Pennsylvania => "PA",
+    1 => "NY",
+    "Oregon" => "OR"
+}
+
+puts states["Oregon"]
+puts states[:Pennsylvania]
+puts states[1]
