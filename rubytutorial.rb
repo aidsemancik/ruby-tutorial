@@ -163,12 +163,23 @@
 
 # Hashes
 
-states = {
-    :Pennsylvania => "PA",
-    1 => "NY",
-    "Oregon" => "OR"
-}
+# states = {
+#     :Pennsylvania => "PA",
+#     1 => "NY",
+#     "Oregon" => "OR"
+# }
 
-puts states["Oregon"]
-puts states[:Pennsylvania]
-puts states[1]
+# puts states["Oregon"]
+# puts states[:Pennsylvania]
+# puts states[1]
+
+# Methods
+
+    # You can set default parameter responses if nothing is entered ie., name="no name" 
+    # You don't have to have parameters at all
+
+def sayhi(name="no name", age=-1)
+    puts ("Hello " + name + ", you are " + age.to_s)
+end
+ 
+sayhi("Mike", 73)
