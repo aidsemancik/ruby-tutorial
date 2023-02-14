@@ -178,8 +178,12 @@
     # You can set default parameter responses if nothing is entered ie., name="no name" 
     # You don't have to have parameters at all
 
-def sayhi(name="no name", age=-1)
-    puts ("Hello " + name + ", you are " + age.to_s)
-end
+# def sayhi(name="no name", age=-1)
+#     puts ("Hello " + name + ", you are " + age.to_s)
+# end
  
-sayhi("Mike", 73)
+# sayhi("Mike", 73)
+
+# Return Statements
+
+
