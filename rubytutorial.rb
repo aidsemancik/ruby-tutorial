@@ -175,8 +175,8 @@
 
 # Methods
 
-    # You can set default parameter responses if nothing is entered ie., name="no name" 
-    # You don't have to have parameters at all
+#     # You can set default parameter responses if nothing is entered ie., name="no name" 
+#     # You don't have to have parameters at all
 
 # def sayhi(name="no name", age=-1)
 #     puts ("Hello " + name + ", you are " + age.to_s)
@@ -186,4 +186,13 @@
 
 # Return Statements
 
+    # Code put after "return" will not be executed, signals that method is done
+    # "," will extend what is returned
+
+def cube(num)
+    return num * num * num, 70
+    puts "hello"
+end
+
+puts cube(3)
 
