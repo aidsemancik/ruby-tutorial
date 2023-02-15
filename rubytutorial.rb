@@ -186,13 +186,32 @@
 
 # Return Statements
 
-    # Code put after "return" will not be executed, signals that method is done
-    # "," will extend what is returned
+#     # Code put after "return" will not be executed, signals that method is done
+#     # "," will extend what is returned
 
-def cube(num)
-    return num * num * num, 70
-    puts "hello"
+# def cube(num)
+#     return num * num * num, 70
+#     puts "hello"
+# end
+
+# puts cube(3)
+
+# If Statements
+
+ismale = true
+istall = true
+
+    # Can use "and" + "or", "!" negates
+
+if ismale and istall
+    puts "You are a tall male"
+elsif ismale and !istall
+    puts "You are a short male"
+elsif !ismale and istall
+    puts "You are not male but are tall"
+else
+    puts "You are not male and not tall"
 end
 
-puts cube(3)
+
 
