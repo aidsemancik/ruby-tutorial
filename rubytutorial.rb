@@ -198,20 +198,35 @@
 
 # If Statements
 
-ismale = true
-istall = true
+# ismale = true
+# istall = true
 
-    # Can use "and" + "or", "!" negates
+#     # Can use "and" + "or", "!" negates
 
-if ismale and istall
-    puts "You are a tall male"
-elsif ismale and !istall
-    puts "You are a short male"
-elsif !ismale and istall
-    puts "You are not male but are tall"
-else
-    puts "You are not male and not tall"
+# if ismale and istall
+#     puts "You are a tall male"
+# elsif ismale and !istall
+#     puts "You are a short male"
+# elsif !ismale and istall
+#     puts "You are not male but are tall"
+# else
+#     puts "You are not male and not tall"
+# end
+
+# If Statements (con't)
+
+    # Indirect true/false value with conparison operator
+    # == equal to, != not equal to, >, >=, <, <=
+    # You can also compare strings (password checker)
+
+def max(num1, num2, num3)
+    if num1 >= num2 and num1 >= num3
+        return num1
+    elsif num2 >= num1 and num2 >= num3
+        return num3
+    else
+        return num3
+    end
 end
 
-
-
+puts max(4, 20, 3)
